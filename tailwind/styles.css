@@ -6,8 +6,8 @@
   src:
     local('Yanone Kaffeesatz Regular'),
     local('YanoneKaffeesatz-Regular'),
-    url('../fonts/Yanone_Kaffeesatz_400.woff') format('woff'),
-    url('../fonts/Yanone_Kaffeesatz_400.woff2') format('woff2');
+    url('../fonts/Yanone_Kaffeesatz_400.woff2') format('woff2'),
+    url('../fonts/Yanone_Kaffeesatz_400.woff') format('woff');
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Yanone Kaffeesatz', arial, serif; }
