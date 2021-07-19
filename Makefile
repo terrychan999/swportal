@@ -61,7 +61,7 @@ PURGECSSCONF?=tailwind/purgecss.config.js
 
 
 css:
-	$(NPX) tailwindcss build $(TAILWINDBASE) -c $(TAILWINDCONF) -o $(CSSFILE)
+	$(NPX) tailwindcss -i $(TAILWINDBASE) -c $(TAILWINDCONF) -o $(CSSFILE)
 
 
 purgecss:
